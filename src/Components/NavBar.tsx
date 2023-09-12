@@ -1,9 +1,15 @@
-import React from "react";
+
 import logo from "../assets/logo.png";
+import {
+  AiFillGithub,
 
-type Props = {};
+  AiFillTwitterCircle,
+} from "react-icons/ai";
+import { BiMenuAltRight } from "react-icons/bi";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
 
-const NavBar = (props: Props) => {
+
+const NavBar = () => {
   return (
     <div>
       {" "}
@@ -13,7 +19,10 @@ const NavBar = (props: Props) => {
           alt=""
           className="object-contain w-[6rem] lg:w-[9rem]"
         />
-        <div className="hidden lg:flex gap-x-10 font-medium text-[#666666] ">
+        <div className="">
+          <BiMenuAltRight className="text-4xl lg:hidden" />
+        </div>
+        <div className="hidden lg:flex gap-x-4 font-medium text-[#666666] ">
           <a href="" className="e">
             Home
           </a>
@@ -29,9 +38,9 @@ const NavBar = (props: Props) => {
           <a href="" className="e">
             Contact
           </a>
-          <div className="w-[20px] h-[20px] rounded-full bg-[#666666]"></div>{" "}
-          <div className="w-[20px] h-[20px] rounded-full bg-[#666666]"></div>
-          <div className="w-[20px] h-[20px] rounded-full bg-[#666666]"></div>
+          <AiFillGithub className="text-3xl" />
+          <TiSocialLinkedinCircular className="text-3xl" />
+          <AiFillTwitterCircle className="text-3xl" />
         </div>
       </nav>
     </div>
