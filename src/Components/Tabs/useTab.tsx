@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const useTab = () => {
   const [tabs, settabs] = useState<Array<string>>([
-    "Landing",
+    "Landing Page",
     "Web Application",
     "Articles",
   ]);

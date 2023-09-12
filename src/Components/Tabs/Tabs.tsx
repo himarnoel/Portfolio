@@ -6,14 +6,15 @@ type Props = {
   setCheckIndex: React.Dispatch<React.SetStateAction<number>>;
 };
 
-const Tabs: React.FC<Props> = (props) => {
+const Tabs: React.FC<Props> = ({ checkIndex, setCheckIndex, tabs }) => {
   return (
     <div>
-      <div className="w-full bg-[#D9D9D9] rounded-[10px]">
-        <div className="p">
-          <p>Landing Pages</p>
-          {props.checkIndex}
-        </div>
+      <div className="w-full flex justify-around items-center h-[4rem] bg-[#D9D9D9] rounded-[10px]">
+        {tabs.map((item, index) => (
+          <div key={index} className="bg-[#42446E] rounded-lg">
+            <p>{item}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

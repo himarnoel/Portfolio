@@ -4,12 +4,11 @@ import LandingPage from "./TabFiles/LandingPage";
 import Application from "./TabFiles/Application";
 import Articles from "./TabFiles/Articles";
 
-
 const Projects = () => {
   const hooks = useTab();
   return (
     <div>
-      <div className="mt-20 lg:mt-64 text-center">
+      <div className="mt-20 lg:mt-4 text-center">
         <h1 className="project-text text-[48px] font-bold">Projects</h1>
         <p className="text-sm font-light">Things I’ve built so faras</p>
       </div>
@@ -21,7 +20,7 @@ const Projects = () => {
       {hooks.checkindex === 0 ? (
         <LandingPage />
       ) : hooks.checkindex === 1 ? (
-        <Application  />
+        <Application />
       ) : (
         <Articles />
       )}
