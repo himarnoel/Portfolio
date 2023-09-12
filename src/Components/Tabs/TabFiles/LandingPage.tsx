@@ -1,5 +1,3 @@
-
-
 type Props = {}
 
 const LandingPage = (props: Props) => {

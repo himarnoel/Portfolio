@@ -7,7 +7,15 @@ type Props = {
 };
 
 const Tabs: React.FC<Props> = (props) => {
-  return <div>Tabs</div>;
+  return (
+    <div>
+      <div className="w-full bg-[#D9D9D9] rounded-[10px]">
+        <div className="p">
+          <p>Landing Pages</p>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Tabs;

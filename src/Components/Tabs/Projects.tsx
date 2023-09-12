@@ -1,10 +1,11 @@
-
 import useTab from "./useTab";
 import Tabs from "./Tabs";
+import LandingPage from "./TabFiles/LandingPage";
+import Application from "./TabFiles/Application";
+import Articles from "./TabFiles/Articles";
 
-type Props = {};
 
-const Projects = (props: Props) => {
+const Projects = () => {
   const hooks = useTab();
   return (
     <div>
@@ -18,11 +19,11 @@ const Projects = (props: Props) => {
         setCheckIndex={hooks.setcheckindex}
       />
       {hooks.checkindex === 0 ? (
-        <HomePage />
+        <LandingPage />
       ) : hooks.checkindex === 1 ? (
-        <LearningPool />
+        <Application  />
       ) : (
-        <CreateProject />
+        <Articles />
       )}
     </div>
   );
