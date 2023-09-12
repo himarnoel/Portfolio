@@ -12,6 +12,7 @@ const Tabs: React.FC<Props> = (props) => {
       <div className="w-full bg-[#D9D9D9] rounded-[10px]">
         <div className="p">
           <p>Landing Pages</p>
+          {props.checkIndex}
         </div>
       </div>
     </div>

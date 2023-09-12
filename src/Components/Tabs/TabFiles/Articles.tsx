@@ -1,8 +1,8 @@
 
 
-type Props = {}
 
-const Articles = (props: Props) => {
+
+const Articles = () => {
   return (
     <div>Articles</div>
   )
