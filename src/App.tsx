@@ -5,11 +5,11 @@ import Projects from "./Components/Tabs/Projects";
 function App() {
   return (
     <>
-      <div className="px-4 lg:px-20 mx-auto ">
+      <div className="px-4 lg:px-20 mx-auto min-h-screen ">
         <NavBar />
         <Hero />
-        <Projects />
       </div>
+      {/* <Projects /> */}
     </>
   );
 }

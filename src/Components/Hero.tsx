@@ -1,11 +1,10 @@
-
 import hero from "../assets/images/hero.png";
 import "../App.css";
 
 const Hero = () => {
   return (
     <div>
-      <div className="flex w-full flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-14 lg:mt-20">
+      <div className="h-[88vh] flex w-full flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-0 lg:mt-0">
         <div className="text-[42px] lg:text-[58px]  text-center lg:text-left font-bold text-[#42446E]">
           Hi 👋,
           <p>
