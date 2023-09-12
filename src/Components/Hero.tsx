@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div>
       <div className="h-[88vh] flex w-full flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-0 lg:mt-0">
-        <div className="text-[42px] lg:text-[58px]  text-center lg:text-left font-bold text-[#42446E]">
+        <div className="text-[42px] lg:text-[58px]  text-center lg:text-left font-bold text-[#42446E] mt-4 lg:mt-0">
           Hi 👋,
           <p>
             My name is{" "}
@@ -20,7 +20,7 @@ const Hero = () => {
         <img
           src={hero}
           alt=""
-          className="h-[10rem]  w-[10rem] lg:h-[20rem] lg:w-[20rem] object-contain"
+          className="h-[10rem]  w-[10rem] lg:h-[20rem] lg:w-[20rem] object-contain mb-4 lg:mb-0"
         />
       </div>
     </div>
