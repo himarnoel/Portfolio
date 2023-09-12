@@ -10,7 +10,7 @@ const Projects = () => {
     <div>
       <div className="mt-20 lg:mt-4 text-center">
         <h1 className="project-text text-[48px] font-bold">Projects</h1>
-        <p className="text-sm font-light">Things I’ve built so faras</p>
+        <p className="text-xl font-light mt-4 ">Things I’ve built so far</p>
       </div>
       <Tabs
         tabs={hooks.tabs}
