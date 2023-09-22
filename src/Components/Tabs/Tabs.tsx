@@ -16,8 +16,8 @@ const Tabs: React.FC<Props> = (prop) => {
             onClick={() => prop.setCheckIndex(index)}
             className={
               index === prop.checkIndex
-                ? "bg-[#42446E] rounded-lg py-2 text-white cursor-pointer flex text-center justify-center  items-center w-full  text-sm lg:text-normal"
-                : " rounded-lg py-2 px-1 cursor-pointer w-full flex justify-center items-center text-center text-sm lg:text-normal"
+                ? "bg-[#42446E] rounded-lg py-2 text-white cursor-pointer flex text-center justify-center  items-center w-full  text- lg:text-normal"
+                : " rounded-lg py-2 px-1 cursor-pointer w-full flex justify-center items-center text-center text- lg:text-normal"
             }
           >
             <p>{item}</p>
