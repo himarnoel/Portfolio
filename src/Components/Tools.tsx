@@ -1,4 +1,3 @@
-import React from "react";
 import html from ".././assets/images/tools/html.svg";
 import css from ".././assets/images/tools/css.svg";
 import bootstrap from ".././assets/images/tools/bootstrap.svg";
