@@ -14,9 +14,11 @@ const Tools = () => {
     <div>
       <div className="mt-20 lg:mt-4 text-center">
         <h1 className="project-text text-[48px] font-bold">My Tech Stack</h1>
-        <p className="text-xl font-light mt-4 ">Things I’ve built so far</p>
+        <p className="text-xl font-light mt-4 ">
+          Technologies I’ve been working with recently
+        </p>
       </div>
-      <div className="w-full grid grid-cols-3 lg:grid-cols-6 place-items-center">
+      <div className="w-full grid grid-cols-3 lg:grid-cols-6 place-items-center gap-y-20 mt-20">
         <div className="s">
           <img
             src={html}
@@ -88,7 +90,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="mm">HTML5</p>
+          <p className="text-[#000] text-center">Node</p>
         </div>
         <div className="w-fit ">
           <img
@@ -97,7 +99,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="mm">HTML5</p>
+          <p className="text-[#000] text-center">Git</p>
         </div>
         <div className="s">
           <img
@@ -106,7 +108,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="mm">HTML5</p>
+          <p className="text-[#000] text-center">Redux</p>
         </div>
 
         <div className="s">
@@ -116,7 +118,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="mm">HTML5</p>
+          <p className="text-[#000] text-center">Github</p>
         </div>
       </div>
     </div>
