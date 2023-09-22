@@ -34,7 +34,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="text-[#000]">HTML5</p>
+          <p className="text-[#000] text-center">CSS3</p>
         </div>
         <div className="s">
           <img
@@ -43,7 +43,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="text-[#000]">HTML5</p>
+          <p className="text-[#000] text-center">JavaScript</p>
         </div>
         <div className="w-fit ">
           <img
@@ -52,7 +52,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="mm">HTML5</p>
+          <p className="text-[#000] text-center">Typescript</p>
         </div>
         <div className="w-fit ">
           <img
@@ -61,7 +61,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="mm">HTML5</p>
+          <p className="text-[#000] text-center">React</p>
         </div>
         <div className="s">
           <img
@@ -70,7 +70,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="mm">HTML5</p>
+          <p className="text-[#000] text-center">Bootstrap</p>
         </div>
         <div className="w-fit ">
           <img
@@ -79,7 +79,7 @@ const Tools = () => {
             className="w-fit  
           object-contain"
           />
-          <p className="mm">HTML5</p>
+          <p className="text-[#000] text-center">Tailwind</p>
         </div>
         <div className="s">
           <img
