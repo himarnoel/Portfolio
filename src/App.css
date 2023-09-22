@@ -40,8 +40,8 @@ background-clip: text;
 
 
 .image {
-    -webkit-animation: action 550ms infinite  alternate;
-    animation: action 550ms infinite  alternate;
+    -webkit-animation: action 700ms infinite  alternate;
+    animation: action 700ms infinite  alternate;
 }
 
 @-webkit-keyframes action {

@@ -19,40 +19,105 @@ const Tools = () => {
       </div>
       <div className="w-full grid grid-cols-3 lg:grid-cols-6 place-items-center">
         <div className="s">
-          <img src={html} alt="" className="w-fit  object-contain" />
+          <img
+            src={html}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+
+          <p className="text-[#000] text-[16px] text-center">HTML5</p>
         </div>
         <div className="s">
-          <img src={css} alt="" className="w-fit  object-contain" />
+          <img
+            src={css}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="text-[#000]">HTML5</p>
         </div>
         <div className="s">
-          <img src={js} alt="" className="w-fit  object-contain" />
+          <img
+            src={js}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="text-[#000]">HTML5</p>
         </div>
         <div className="w-fit ">
-          <img src={ts} alt="" className="w-fit  object-contain" />
+          <img
+            src={ts}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="mm">HTML5</p>
         </div>
         <div className="w-fit ">
-          <img src={react} alt="" className="w-fit  object-contain" />
+          <img
+            src={react}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="mm">HTML5</p>
         </div>
         <div className="s">
-          <img src={bootstrap} alt="" className="w-fit  object-contain" />
+          <img
+            src={bootstrap}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="mm">HTML5</p>
         </div>
         <div className="w-fit ">
-          <img src={tailwind} alt="" className="w-fit  object-contain" />
+          <img
+            src={tailwind}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="mm">HTML5</p>
         </div>
         <div className="s">
-          <img src={node} alt="" className="w-fit  object-contain" />
+          <img
+            src={node}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="mm">HTML5</p>
         </div>
         <div className="w-fit ">
-          <img src={git} alt="" className="w-fit  object-contain" />
+          <img
+            src={git}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="mm">HTML5</p>
         </div>
         <div className="s">
-          <img src={redux} alt="" className="w-fit  object-contain" />
+          <img
+            src={redux}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="mm">HTML5</p>
         </div>
-        <div className="w-fit ">
-          <img src={react} alt="" className="w-fit  object-contain" />
-        </div>
+
         <div className="s">
-          <img src={github} alt="" className="w-fit  object-contain" />
+          <img
+            src={github}
+            alt=""
+            className="w-fit  
+          object-contain"
+          />
+          <p className="mm">HTML5</p>
         </div>
       </div>
     </div>
