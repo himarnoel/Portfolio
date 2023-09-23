@@ -37,12 +37,12 @@ const ProjectData = () => {
       techstack: "React, Tailwind and CSS",
     },
     {
-      image: "",
-      title: "",
-      text: "",
-      previewlink: "",
-      githublink: "",
-      techstack: "",
+      image: img3,
+      title: "Gigamoni Admin",
+      text: "This serves as Gigamoni's administrative portal, dedicated to managing and processing user-initiated transactions.",
+      previewlink: "https://gigamoniadmin.vercel.app/",
+      githublink: "https://github.com/himarnoel/gigamoniadmin",
+      techstack: "React, Tailwind and CSS",
     },
   ];
 
