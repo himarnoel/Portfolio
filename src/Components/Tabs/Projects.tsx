@@ -1,9 +1,9 @@
 import useTab from "./useTab";
 import Tabs from "./Tabs";
-import LandingPage from "./TabFiles/LandingPage";
-import Application from "./TabFiles/Application";
+import WebApplication from "./TabFiles/WebApplication";
+import Application from "./TabFiles/LandingPages";
 import Articles from "./TabFiles/Articles";
-
+import LandingPages from "./TabFiles/LandingPages";
 
 const Projects = () => {
   const hooks = useTab();
@@ -19,9 +19,9 @@ const Projects = () => {
         setCheckIndex={hooks.setcheckindex}
       />
       {hooks.checkindex === 0 ? (
-        <LandingPage />
+        <WebApplication />
       ) : hooks.checkindex === 1 ? (
-        <Application />
+        <LandingPages />
       ) : (
         <Articles />
       )}
