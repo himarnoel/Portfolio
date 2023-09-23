@@ -1,7 +1,6 @@
 import useTab from "./useTab";
 import Tabs from "./Tabs";
 import WebApplication from "./TabFiles/WebApplication";
-import Application from "./TabFiles/LandingPages";
 import Articles from "./TabFiles/Articles";
 import LandingPages from "./TabFiles/LandingPages";
 
