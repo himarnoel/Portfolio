@@ -1,16 +1,17 @@
 import image from "../../../assets/images/bg1.png";
 import link from "../../../assets/images/link.svg";
 import github from "../../../assets/images/github.svg";
-
+import img2 from "../../../assets/images/p2.png";
+import img3 from "../../../assets/images/p3.png";
 const LandingPage = () => {
   return (
     <div>
-      <div className="grid lg:grid-cols-3 gap-y-10 gap-x-20 mt-20">
+      <div className="grid lg:grid-cols-3 place-items-center gap-y-10 gap-x-20 mt-20">
         <div className="w-full shadow-[2px_2px_100px_0px_rgba(0,_0,_0,_0.20)]  rounded-[20px] min-h-[32rem]">
           <img src={image} alt="" className="w-full object-fill" />
-          <div className="flex flex-col  gap-y-8 w-full px-4 pb-2">
+          <div className="flex flex-col  gap-y-4 w-full px-4 pb-2">
             <p className="text-[#000] text-[28px]  font-bold">
-              Project Tile goes here
+              Previous Exam Papers Hubs
             </p>
             <p className="s">
               This is sample project description random things are here in
@@ -42,10 +43,10 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="w-full shadow-[2px_2px_100px_0px_rgba(0,_0,_0,_0.20)]  rounded-[20px] min-h-[32rem]">
-          <img src={image} alt="" className="w-full object-fill" />
+          <img src={img2} alt="" className="w-full object-fill" />
           <div className="flex flex-col  gap-y-8 w-full px-4 pb-2">
             <p className="text-[#000] text-[28px]  font-bold">
-              Project Tile goes here
+              Previous Exam Papers Hubs
             </p>
             <p className="s">
               This is sample project description random things are here in
@@ -77,7 +78,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="w-full shadow-[2px_2px_100px_0px_rgba(0,_0,_0,_0.20)]  rounded-[20px] min-h-[32rem]">
-          <img src={image} alt="" className="w-full object-fill" />
+          <img src={img3} alt="" className="w-full object-fill" />
           <div className="flex flex-col  gap-y-8 w-full px-4 pb-2">
             <p className="text-[#000] text-[28px]  font-bold">
               Project Tile goes here
