@@ -12,11 +12,11 @@ const Projects = () => {
         <h1 className="project-text text-[48px] font-bold">Projects</h1>
         <p className="text-xl font-light mt-4 ">Things I’ve built so far</p>
       </div>
-      <Tabs
+      {/* <Tabs
         tabs={hooks.tabs}
         checkIndex={hooks.checkindex}
         setCheckIndex={hooks.setcheckindex}
-      />
+      /> */}
       {hooks.checkindex === 0 ? (
         <WebApplication />
       ) : hooks.checkindex === 1 ? (
