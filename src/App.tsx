@@ -10,7 +10,7 @@ function App() {
         <NavBar />
         <Hero />
       </div>
-      <div className="px-4 lg:px-20 mx-auto min-h-screen ">
+      <div className="px-4   lg:px-20 mt-20 ">
         <Tools />
       </div>
       <div className="px-4 lg:px-20 mx-auto min-h-screen ">
