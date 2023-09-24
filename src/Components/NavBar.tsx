@@ -15,7 +15,7 @@ const NavBar = () => {
         />
 
         <a
-          className="md:px-8 px-4 rounded fixed right-4 py-2 btn text-white lg:hidden"
+          className="md:px-8 px-4 rounded fixed z-20 right-4 py-2 btn text-white lg:hidden"
           download="Emmanuel Olaniyi.pdf"
           target="_blank"
           href="https://drive.google.com/file/d/1LNYVoLY19qAnDThMwHZoz5EJxLkqceX_/view"
