@@ -18,7 +18,7 @@ const Tools = () => {
           Technologies I’ve been working with recently
         </p>
       </div>
-      <div className="w-full grid grid-cols-3 lg:grid-cols-6 place-items-center gap-y-20 mt-20">
+      <div className="w-full flex  gap-x-20 justify-center flex-wrap place-items-center gap-y-20 mt-20">
         <div className="s">
           <img
             src={html}
