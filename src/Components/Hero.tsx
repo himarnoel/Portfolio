@@ -4,7 +4,7 @@ import "../App.css";
 const Hero = () => {
   return (
     <div>
-      <div className="h-[88vh] flex w-full flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-0 lg:mt-0">
+      <div className="min-h-[88vh] flex w-full flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-0 lg:mt-0">
         <div className="text-[42px] md:text-[64px] lg:text-[58px]  text-center lg:text-left font-bold text-[#42446E] mt-0 lg:mt-6">
           Hi <span className="wave">👋</span>,
           <p>
