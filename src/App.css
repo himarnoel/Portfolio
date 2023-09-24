@@ -53,3 +53,8 @@ background-clip: text;
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
+
+
+.btn{
+    background: linear-gradient(90deg, #13B0F5 -4.79%, #E90DAB 100%);
+}

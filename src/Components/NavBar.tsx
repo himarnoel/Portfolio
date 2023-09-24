@@ -11,15 +11,16 @@ const NavBar = () => {
         <img
           src={logo}
           alt=""
-          className="object-contain w-[6rem] md:w-[10rem] lg:w-[9rem]"
+          className="object-contain w-[6rem] md:w-[10rem] lg:w-[7rem]"
         />
         <div className="">
           <BiMenuAltRight className="text-4xl md:text-6xl lg:hidden" />
         </div>
-        <div className="hidden lg:flex gap-x-4 font-medium text-[#666666] ">
+        <div className="hidden lg:flex gap-x-4  items-center font-medium text-[#666666] ">
           <AiFillGithub className="text-3xl" />
           <TiSocialLinkedinCircular className="text-3xl" />
           <AiFillTwitterCircle className="text-3xl" />
+          <button className="px-8 rounded py-2 btn text-white">Resume</button>
         </div>
       </nav>
     </div>
