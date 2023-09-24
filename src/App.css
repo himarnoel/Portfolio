@@ -56,5 +56,8 @@ background-clip: text;
 
 
 .btn{
+   background-color: #666;
+}
+.btn:hover{
     background: linear-gradient(90deg, #13B0F5 -4.79%, #E90DAB 100%);
 }
