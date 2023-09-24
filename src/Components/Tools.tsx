@@ -15,7 +15,7 @@ const Tools = () => {
       <div className="mt-20 lg:mt-4 text-center">
         <h1 className="project-text text-[48px] font-bold">My Tech Stack</h1>
         <p className="text-xl font-light mt-4 ">
-          Technologies I’ve been working with recently
+          Technologies I’ve been working with over the years.
         </p>
       </div>
       <div className="w-full flex  gap-x-20 justify-center flex-wrap place-items-center gap-y-20 mt-20">

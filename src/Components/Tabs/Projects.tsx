@@ -8,7 +8,7 @@ const Projects = () => {
   const hooks = useTab();
   return (
     <div>
-      <div className="mt-20 lg:mt-32 text-center">
+      <div className="mt-20 md:mt-0 lg:mt-32 text-center">
         <h1 className="project-text text-[48px] font-bold">Projects</h1>
         <p className="text-xl font-light mt-4 ">Things I’ve built so far</p>
       </div>
