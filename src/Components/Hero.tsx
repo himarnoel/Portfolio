@@ -1,7 +1,6 @@
 import hero from "../assets/images/hero.png";
 import "../App.css";
-import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
+
 const Hero = () => {
   return (
     <div>
