@@ -15,7 +15,7 @@ const NavBar = () => {
         />
 
         <a
-          className="md:px-8 px-4 rounded fixed z-20 right-4 py-2 btn text-white lg:hidden"
+          className="md:px-14 md:py-4 px-4 rounded  md:text-xl fixed z-20 right-4 py-2 btn text-white lg:hidden"
           download="Emmanuel Olaniyi.pdf"
           target="_blank"
           href="https://drive.google.com/file/d/1LNYVoLY19qAnDThMwHZoz5EJxLkqceX_/view"
@@ -30,7 +30,7 @@ const NavBar = () => {
             <TiSocialLinkedinCircular className="bg-white rounded-full text-[2.8rem] md:text-7xl" />
           </a>
           <a href="https://twitter.com/theMOGDev">
-            <AiFillTwitterCircle className="bg-white rounded-full text-4xl md:text-7xl" />
+            <AiFillTwitterCircle className="bg-white rounded-full text-4xl md:text-6xl" />
           </a>
         </div>
 
@@ -46,7 +46,7 @@ const NavBar = () => {
           </a>
 
           <a
-            className="px-8 rounded py-2 btn text-white"
+            className="px-8 rounded py-2 btn  text-white"
             download="Emmanuel Olaniyi.pdf"
             target="_blank"
             href="https://drive.google.com/file/d/1LNYVoLY19qAnDThMwHZoz5EJxLkqceX_/view"

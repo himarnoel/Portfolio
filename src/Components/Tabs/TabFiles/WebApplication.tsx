@@ -6,7 +6,7 @@ const WebApplication = () => {
   const data = ProjectData();
   return (
     <div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 place-items-start gap-y-10 gap-x-20 mt-20">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 place-items-start gap-y-10 gap-x-20 md:gap-x-20 md:gap-y-20  mt-20">
         {data.map((item, index: number) => (
           <div
             key={index}
@@ -16,7 +16,7 @@ const WebApplication = () => {
               <img src={item.image} alt="" className="w-full object-fill" />
             </a>
             <div className="flex flex-col  gap-y-4 w-full px-4 pb-2">
-              <p className="text-[#000] text-[20px] lg:text-[23px] mt-2 font-bold">
+              <p className="text-[#000] text-[20px] lg:text-[25px]  font-bold">
                 {item.title}
               </p>
               <p className="text-justify">{item.text}</p>
