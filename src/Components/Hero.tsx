@@ -20,7 +20,7 @@ const Hero = () => {
         <img
           src={hero}
           alt=""
-          className="h-[10rem]  w-[10rem] md:h-[30rem] md:w-[30rem] lg:h-[20rem] lg:w-[20rem] object-contain mb-4 lg:mb-0"
+          className="h-[10rem]  w-[10rem] md:h-[30rem] md:w-[30rem] lg:h-[20rem] lg:w-[20rem] object-contain mb-4 lg:mb-0 image"
         />
       </div>
     </div>
