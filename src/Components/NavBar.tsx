@@ -1,5 +1,9 @@
 import logo from "../assets/logo.png";
-import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillTwitterCircle,
+  AiOutlineMail,
+} from "react-icons/ai";
 
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 
@@ -23,6 +27,9 @@ const NavBar = () => {
           Resume
         </a>
         <div className="flex flex-col fixed bottom-2 right-1 text-[#666666] gap-x-4 lg:hidden gap-y-4  mt-4 items-center">
+          <a href="mailto:olaimarnoel@gmail.com">
+            <AiOutlineMail className="bg-white rounded-full p-1 text-3xl md:text-6xl" />
+          </a>
           <a href="https://github.com/himarnoel">
             <AiFillGithub className="bg-white rounded-full  text-4xl md:text-6xl" />
           </a>
@@ -35,6 +42,9 @@ const NavBar = () => {
         </div>
 
         <div className="hidden lg:flex gap-x-6 fixed z-20 right-20 items-center   font-medium text-[#666666] ">
+          <a href="">
+            <AiOutlineMail className="bg-white rounded-full  text-4xl md:text-6xl" />
+          </a>
           <a href="https://github.com/himarnoel">
             <AiFillGithub className="text-3xl bg-white rounded-full" />
           </a>
