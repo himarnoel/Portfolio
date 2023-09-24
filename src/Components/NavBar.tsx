@@ -21,8 +21,19 @@ const NavBar = () => {
         >
           Resume
         </a>
+        <div className="flex flex-col fixed bottom-0 right-4 text-[#666666] gap-x-4 lg:hidden gap-y-4 mt-4 items-center">
+          <a href="https://github.com/himarnoel">
+            <AiFillGithub className="bg-white rounded-full  text-4xl md:text-6xl" />
+          </a>
+          <a href="https://www.linkedin.com/in/imanwel/">
+            <TiSocialLinkedinCircular className="bg-white rounded-full text-5xl md:text-7xl" />
+          </a>
+          <a href="https://twitter.com/theMOGDev">
+            <AiFillTwitterCircle className="bg-white rounded-full text-4xl md:text-7xl" />
+          </a>
+        </div>
 
-        <div className="hidden lg:flex gap-x-6 fixed z-20 right-20 items-center  font-medium text-[#666666] ">
+        <div className="hidden lg:flex gap-x-6 fixed z-20 right-20 items-center   font-medium text-[#666666] ">
           <button>
             <a
               className="px-8 rounded py-2 btn text-white"
