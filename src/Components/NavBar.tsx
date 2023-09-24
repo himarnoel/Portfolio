@@ -14,15 +14,32 @@ const NavBar = () => {
           className="object-contain w-[6rem] md:w-[10rem] lg:w-[7rem]"
         />
 
-        <button className="px-8 rounded py-2 btn text-white lg:hidden">
+        <a
+          className="md:px-8 px-4 rounded py-2 btn text-white lg:hidden"
+          download="Emmanuel Olaniyi.pdf"
+          href="../../src/assets/Resume.pdf"
+        >
           Resume
-        </button>
+        </a>
 
         <div className="hidden lg:flex gap-x-4  items-center font-medium text-[#666666] ">
-          <AiFillGithub className="text-3xl" />
-          <TiSocialLinkedinCircular className="text-3xl" />
-          <AiFillTwitterCircle className="text-3xl" />
-          <button className="px-8 rounded py-2 btn text-white">Resume</button>
+          <a href="https://github.com/himarnoel">
+            <AiFillGithub className="text-3xl" />
+          </a>
+          <a href="https://www.linkedin.com/in/imanwel/">
+            <TiSocialLinkedinCircular className="text-4xl" />
+          </a>
+          <a href="https://twitter.com/theMOGDev">
+            <AiFillTwitterCircle className="text-3xl" />
+          </a>
+
+          <a
+            className="px-8 rounded py-2 btn text-white"
+            download="Emmanuel Olaniyi.pdf"
+            href="../../src/assets/Resume.pdf"
+          >
+            Resume
+          </a>
         </div>
       </nav>
     </div>

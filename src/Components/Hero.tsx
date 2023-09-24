@@ -1,10 +1,23 @@
 import hero from "../assets/images/hero.png";
 import "../App.css";
-
+import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
 const Hero = () => {
   return (
     <div>
+      {/* A flex col reverse was done */}
       <div className="min-h-[88vh] flex w-full flex-col-reverse lg:flex-row items-center justify-center lg:justify-between mt-0 lg:mt-0">
+        <div className="flex text-[#666666] gap-x-4 lg:hidden mt-4 items-center">
+          <a href="https://github.com/himarnoel">
+            <AiFillGithub className=" text-4xl md:text-6xl" />
+          </a>
+          <a href="https://www.linkedin.com/in/imanwel/">
+            <TiSocialLinkedinCircular className="text-5xl md:text-7xl" />
+          </a>
+          <a href="https://twitter.com/theMOGDev">
+            <AiFillTwitterCircle className="text-4xl md:text-7xl" />
+          </a>
+        </div>
         <div className="text-[42px] md:text-[64px] lg:text-[58px]  text-center lg:text-left font-bold text-[#42446E] mt-0 lg:mt-6">
           Hi <span className="wave">👋</span>,
           <p>
@@ -17,6 +30,7 @@ const Hero = () => {
           </p>
           I build things for web
         </div>
+
         <img
           src={hero}
           alt=""
