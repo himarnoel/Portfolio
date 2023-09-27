@@ -49,9 +49,9 @@ const ProjectData = () => {
     {
       image: img5,
       title: "Colab Apes WaitList",
-      text: "A webpage designed for an interior decoration company, showcasing its range of products and services aimed at boosting sales.",
-      previewlink: "https://interior-dec.vercel.app/",
-      githublink: "https://github.com/himarnoel/interior_dec",
+      text: "A US-based startup aiming to attract future users has opted to create a waitlist page, and I was responsible for its development.",
+      previewlink: "https://colabapes.vercel.app/",
+      githublink: "",
       techstack: "ReactJs, Tailwind and CSS",
     },
     {
