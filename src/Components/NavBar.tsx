@@ -59,7 +59,7 @@ const NavBar = () => {
             className="px-8 rounded py-2 btn  text-white"
             download="Emmanuel Olaniyi.pdf"
             target="_blank"
-            href="https://drive.google.com/file/d/1LNYVoLY19qAnDThMwHZoz5EJxLkqceX_/view"
+            href="https://drive.google.com/file/d/1mdg-kWrzK03w0-B1NTqZ7W0rK1D7mSFd/view?usp=sharing"
           >
             Resume
           </a>
