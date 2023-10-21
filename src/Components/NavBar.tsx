@@ -22,7 +22,7 @@ const NavBar = () => {
           className="md:px-14 md:py-4 px-4 rounded  md:text-xl fixed z-20 right-4 py-2 btn text-white lg:hidden"
           download="Emmanuel Olaniyi.pdf"
           target="_blank"
-          href="https://drive.google.com/file/d/1LNYVoLY19qAnDThMwHZoz5EJxLkqceX_/view"
+          href="https://drive.google.com/file/d/1mdg-kWrzK03w0-B1NTqZ7W0rK1D7mSFd/view?usp=sharing"
         >
           Resume
         </a>
